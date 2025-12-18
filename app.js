@@ -82,3 +82,25 @@ saveBtn.addEventListener("click", () => {
   displayNotes();
 });
 
+
+
+
+
+function editNote(i) {
+  noteTitle.value = notes[i].title;
+  noteText.value = notes[i].text;
+  editIndex.value = i;
+
+  document.getElementById("modalTitle").innerText = "Edit Notes";
+
+
+  new bootstrap.Modal(document.getElementById("noteModal")).show();
+}
+
+
+
+function deleteNote(i) {
+  notes.splice(i, 1);
+  localStorage.setItem("notes", JSON.stringify(notes));
+  displayNotes();
+}
