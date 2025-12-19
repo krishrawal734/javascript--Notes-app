@@ -1,4 +1,3 @@
-
 https://notes-app-green-alpha.vercel.app/
 <img width="1920" height="945" alt="screencapture-notes-app-green-alpha-vercel-app-2025-12-18-16_57_22" src="https://github.com/user-attachments/assets/85cbc9b1-c0bf-4933-ab55-195cd87084d0" />
 
